@@ -1,4 +1,4 @@
-package com.zoom.photoplace.photo;
+package com.zoom.photoplace.photo.widget.photoview;
 
 /*******************************************************************************
  * Copyright 2011, 2012 Chris Banes.

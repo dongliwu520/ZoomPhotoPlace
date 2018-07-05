@@ -34,7 +34,7 @@
         android:background="@android:color/transparent"
         android:visibility="gone">
 
-        <com.zoom.photoplace.widget.HackyViewPager
+        <com.zoom.photoplace.photo.widget.HackyViewPager
             android:id="@+id/hlist_view_pager"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

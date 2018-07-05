@@ -1,4 +1,4 @@
-package com.zoom.photoplace.photo;
+package com.zoom.photoplace.photo.widget.photoview;
 
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;

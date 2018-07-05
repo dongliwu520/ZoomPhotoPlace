@@ -1,4 +1,4 @@
-package com.zoom.photoplace;
+package com.zoom.photoplace.carousellayout;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
+import com.zoom.photoplace.R;
 import com.zoom.photoplace.carousellayout.adapter.CMFilmPosterAdapter;
-import com.zoom.photoplace.carousellayout.adapter.FilmSelectNumberAdapter;
-import com.zoom.photoplace.carousellayout.util.Constants;
+import com.zoom.photoplace.data.Constants;
 import com.zoom.photoplace.carousellayout.widget.carousellayout.CarouselLayoutManager;
 import com.zoom.photoplace.carousellayout.widget.carousellayout.CarouselZoomPostLayoutListener;
 import com.zoom.photoplace.carousellayout.widget.carousellayout.CenterScrollListener;

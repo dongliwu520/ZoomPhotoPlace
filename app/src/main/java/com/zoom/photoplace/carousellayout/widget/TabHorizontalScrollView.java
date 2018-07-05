@@ -46,7 +46,7 @@ public class TabHorizontalScrollView extends HorizontalScrollView {
 	protected void onScrollChanged(int l, int t, int oldl, int oldt) {
 		super.onScrollChanged(l, t, oldl, oldt);
 		
-		Log.i("MainActivity", "view width:"+view.getWidth()+"window width:"+windowWitdh+",l:"+l+",oldl:"+oldl);
+		Log.i("PhotoActivity", "view width:"+view.getWidth()+"window width:"+windowWitdh+",l:"+l+",oldl:"+oldl);
 		
 //		if(!mContext.isFinishing() && view != null 
 //				&& leftImage != null && rightImage != null){

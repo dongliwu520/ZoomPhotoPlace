@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.zoom.photoplace.photo;
+package com.zoom.photoplace.photo.widget.photoview;
 
 import android.content.Context;
 import android.graphics.RectF;
@@ -21,8 +21,6 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-
-import com.zoom.photoplace.photo.PhotoViewAttacher.*;
 
 public class PhotoView extends ImageView implements IPhotoView {
 
@@ -130,7 +128,7 @@ public class PhotoView extends ImageView implements IPhotoView {
 	}
 
 	@Override
-	public void setOnMatrixChangeListener(OnMatrixChangedListener listener) {
+	public void setOnMatrixChangeListener(PhotoViewAttacher.OnMatrixChangedListener listener) {
 		mAttacher.setOnMatrixChangeListener(listener);
 	}
 
@@ -140,12 +138,12 @@ public class PhotoView extends ImageView implements IPhotoView {
 	}
 
 	@Override
-	public void setOnPhotoTapListener(OnPhotoTapListener listener) {
+	public void setOnPhotoTapListener(PhotoViewAttacher.OnPhotoTapListener listener) {
 		mAttacher.setOnPhotoTapListener(listener);
 	}
 
 	@Override
-	public void setOnViewTapListener(OnViewTapListener listener) {
+	public void setOnViewTapListener(PhotoViewAttacher.OnViewTapListener listener) {
 		mAttacher.setOnViewTapListener(listener);
 	}
 

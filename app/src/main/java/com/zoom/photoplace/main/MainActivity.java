@@ -1,4 +1,4 @@
-package com.zoom.photoplace;
+package com.zoom.photoplace.main;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
+
+import com.zoom.photoplace.carousellayout.CarouselLayoutActivity;
+import com.zoom.photoplace.R;
+import com.zoom.photoplace.photo.PhotoActivity;
 
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
@@ -16,7 +20,7 @@ import me.ele.uetool.UETool;
  * Created by wudongli on 2018/6/27.
  */
 
-public class StartActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     @ViewInject(R.id.btn1)
     private Button btn1;
@@ -41,7 +45,7 @@ public class StartActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn1:
-                intent = new Intent(this, MainActivity.class);
+                intent = new Intent(this, PhotoActivity.class);
                 startActivity(intent);
                 break;
             case R.id.btn2:

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.zoom.photoplace.photo;
+package com.zoom.photoplace.photo.widget.photoview;
 
 import android.annotation.TargetApi;
 import android.view.View;
