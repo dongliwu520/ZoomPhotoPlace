@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/new_text_color15">
+
+    <com.zoom.photoplace.carousellayout.widget.MyScrollView
+        android:id="@+id/svProductWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="374dp">
+                    <!-- 背景图片 -->
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="374dp"
+                        android:background="#80000000" />
+
+                    <!-- 模糊效果 -->
+
+                    <TextView
+                        android:id="@+id/tvs_bg1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:background="@color/new_bg"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp"
+                        android:visibility="gone" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/titleLeft"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:drawableLeft="@mipmap/bg_film_btn_back_white"
+                            android:paddingLeft="18dp"
+                            android:paddingRight="18dp"
+                            android:scaleType="fitXY"
+                            android:textSize="18sp"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/titleRight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingLeft="18dp"
+                            android:paddingRight="18dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_poster"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:layout_marginTop="20dp">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/list_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="208dp"
+                            android:overScrollMode="never"
+                            android:scrollbars="none" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.zoom.photoplace.carousellayout.widget.MyScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--透明度百分比 : 8位颜色值前两位-->
+    <!--100% : FF-->
+    <!--95% : F2-->
+    <!--90% : E6-->
+    <!--85% : D9-->
+    <!--80% : CC-->
+    <!--75% : BF-->
+    <!--70% : B3-->
+    <!--65% : A6-->
+    <!--60% : 99-->
+    <!--55% : 8C-->
+    <!--50% : 80-->
+    <!--45% : 73-->
+    <!--40% : 66-->
+    <!--35% : 59-->
+    <!--30% : 4D-->
+    <!--25% : 40-->
+    <!--20% : 33-->
+    <!--15% : 26-->
+    <!--10% : 1A-->
+    <!--5% : 0D-->
+    <!--0% : 00-->
+    <!-- V2.6新版界面 主色调 统一  -->
+    <!-- 标题颜色   鲜红色-->
+    <color name="new_title_bg">#ff4d5b</color>
+    <!-- 按钮正常颜色  浅红色 -->
+    <color name="new_title_bg_">#FBC2C6</color>
+    <!-- 标题颜色   浅红色-->
+    <color name="new_title_bg2">#f98f98</color>
+    <!-- 标题颜色   深红色-->
+    <color name="new_title_bg3">#e73242</color>
+    <!-- 字体  中红 -->
+    <color name="red_font_size">#ff4d5b</color>
+    <!-- 背景色  白灰色-->
+    <color name="new_bg">#eff0f3</color>
+    <!-- 中标题色 -->
+    <color name="new_film_title">#eae2cd</color>
+    <!-- 按钮正常颜色  浅红色 -->
+    <color name="new_button_normal_">#fc4f5f</color>
+    <!-- 按钮正常颜色  鲜红色 -->
+    <color name="new_button_normal">#ff4d5b</color>
+    <!-- 按钮按下颜色 深鲜红色-->
+    <color name="new_button_press">#e74451</color>
+    <!-- 文字颜色 自由搭配 -->
+    <!-- 浅黑色 -->
+    <color name="new_text_color01">#646464</color>
+    <!-- 浦发银行 -->
+    <color name="new_text_color06">#013266</color>
+    <!-- 灰色 -->
+    <color name="new_text_color02">#999999</color>
+    <!-- 深灰色 -->
+    <color name="new_text_color03">#646464</color>
+    <color name="new_text_color10">#323232</color>
+    <!-- 浅灰色 -->
+    <color name="new_text_color04">#a2a0a0</color>
+    <!-- 接近黄色 -->
+    <color name="new_text_color07">#F6F1F2</color>
+    <color name="new_text_color08">#D7CFCF</color>
+    <!-- 接近黑色 -->
+    <color name="new_text_color05">#302f2f</color>
+    <color name="new_text_color09">#000005</color>
+    <!-- 接近灰色 猫眼（电影频道）-->
+    <color name="new_text_color11">#4c5b63</color>
+    <color name="new_text_color12">#7f8f97</color>
+    <color name="new_text_color13">#a8b6bd</color>
+    <color name="new_text_color14">#edf1f3</color>
+    <color name="new_text_color15">#F3F4F5</color>
+    <color name="new_text_color16">#c1c9cd</color>
+    <color name="red2">#ff3a56</color>
+    <color name="red3">#ff92a1</color>
+    <color name="red5">#ccff2544</color>
+    <color name="red4">#ffe6e9</color>
+    <!-- 条横线颜色  -->
+    <color name="new_line_color">#EDF1F3</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- 白色 按下-->
+    <color name="new_title_bg_select_color">#F4F4F4</color>
+
+    <!-- 黄色 normal -->
+    <color name="new_yellow_nromal">#FBB102</color>
+    <!-- 黄色 press -->
+    <color name="new_yellow_press">#da9e10</color>
+
+    <color name="new_black2">#b1b7bc</color>
+    <color name="red">#C00000</color>
+    <color name="red1">#ff0000</color>
+
+
+    <!-- 黑色 -->
+    <color name="new_black">#000000</color>
+    <color name="new_black01">#1d1d1e</color>
+    <!-- 一级颜色 -->
+    <color name="title_text01">#26262e</color>
+    <!-- 一级背景 -->
+    <color name="title_bg01">#f8f8f8</color>
+    <color name="title_bg02">#50ffffff</color>
+    <!-- 接近黑色 -->
+    <color name="coupon_black">#323232</color>
+    <!-- 浅灰色 -->
+    <color name="coupon_black02">#969696</color>
+
+
+    <!-- 新电影频道标题 -->
+    <color name="bd_film_title">#f8f8f8</color>
+    <color name="bd_green_color">#00BF79</color>
+
+
+    <color name="green_color">#8EE5EE</color>
+    <color name="select_text_film_order">#969696</color>
+
+    <color name="dialog_rab_ticket_red">#ec4e5c</color>
+
+    <!-- 选择城市 浅红色背景 -->
+    <color name="city_text_bg_red">#F6F1F2</color>
+    <!-- 票价页选择框默认灰色 -->
+    <color name="select_text_bg_hui">#DAD3D3</color>
+
+    <color name="material_blue_grey_900">#ff263238</color>
+
+    <color name="calender_bg">#C8C8C8</color>
+
+    <color name="img_bg_black">#DC000000</color>
+
+    <color name="bg_hui">#ebe9e9</color>
+
+    <color name="bd_red_color">#ff4d5b</color>
+
+    <color name="text_blue_color">#0099cc</color>
+    <!-- 支付结果页面 -->
+    <color name="text_blue_color01">#2e9af6</color>
+
+    <!-- 活动报名页面 -->
+    <color name="text_green">#00cc99</color>
+    <color name="bg_gray">#e1e1e1</color>
+    <color name="light_gray">#99a4b7</color>
+    <color name="deep_gray">#394257</color>
+    <color name="gay">#399ef3</color>
+
+    <!-- 当前月之外的灰色边框颜色 -->
+    <color name="hui01">#E9E4E5</color>
+    <!-- 当前月之外的灰色背景颜色 -->
+    <color name="hui02">#F7F3F4</color>
+    <!-- 当前月已过的日期颜色-->
+    <color name="hui03">#C9C9CA</color>
+    <color name="hui04">#CDCDCE</color>
+    <!-- 邀请有礼-->
+    <color name="aluminum">#D3D4D5</color>
+    <color name="text_black">#626262</color>
+    <color name="text_hui">#b5b5b5</color>
+    <color name="text_green01">#12ca8d</color>
+
+    <color name="rns_text_color">#b57479</color>
+    <color name="rns_text_caramel">#452124</color>
+    <color name="rns_bg_color">#fef7f8</color>
+    <color name="rns_bg_color2">#FFDCDF</color>
+    <color name="rns_bg_color3">#ffedef</color>
+    <color name="colorGreen">#00b100</color>
+    <!-- 搜索推荐 -->
+    <color name="text_bazaar">#97787b</color>
+    <color name="bg_chablis">#fff4f5</color>
+    <!-- 自定义键盘 -->
+    <color name="color_3c3c3c">#3c3c3c</color>
+    <color name="color_d8dbdf">#d8dbdf</color>
+    <color name="product_list_bac">#efeef4</color>
+    <color name="keyboard_blackground">#bababa</color>
+    <color name="txt_orange">#ff6800</color>
+
+
+    <color name="color_palace_item_normal">#502f00</color>
+    <color name="color_palace_item_ban">#4d000000</color>
+
+    <color name="full_transparent">#00000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
